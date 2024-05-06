@@ -24,7 +24,7 @@ This course aims to provide a comprehensive resource for understanding Graph Neu
 | Link Prediction                           | Forecast missing connections in graphs with PyG                                                 | <a href="https://colab.research.google.com/drive/1hmsobQvQ4TsMOJAfuQOQ-kFpH-SiSGGT?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
 | Link Regression                           | Predict continuous-valued edge attributes in graph-structured data with PyG                     | <a href="https://colab.research.google.com/drive/1oMW5JqV4sL_CY6eGHiawcaysCW58LWI9?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
 | R-GCN Layer                               | Extend the definition of GCN for processing heterogenous graph (aka Knowledge Graphs)           | <a href="https://colab.research.google.com/drive/1kvUX0wegmeJAxzFtZGQh4pNyERlPYSgU?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
-| KG Embeddings                             | Implement basic KG embedding algorithm with NumPy and Pykeen                                    | <a href="https://colab.research.google.com/drive/1AQJx6xOVlxxqSUKknwDrkGgP-1_GRlAk?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| KG Embeddings                             | Implement basic KG embedding algorithms with NumPy and Pykeen                                    | <a href="https://colab.research.google.com/drive/1AQJx6xOVlxxqSUKknwDrkGgP-1_GRlAk?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
 
 ## Contact
 
