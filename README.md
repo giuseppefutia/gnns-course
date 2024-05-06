@@ -1,2 +1,33 @@
-# gnns-course
-Course on Graph Neural Networks
+# Course on Graph Neural Networks
+This course aims to provide a comprehensive resource for understanding Graph Neural Networks (GNNs).
+
+
+
+|                   Module                  |                                           Description                                           |                                                                        Notebook                                                                       |
+|:-----------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Graph Representation                      | Represent different types of graphs in NumPy and NetworkX                                       | <a href="https://colab.research.google.com/drive/1_zklstMptZK6R4HK-ZqQb5ywQZBtdcXZ?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| Traditional ML methods on Graphs          | Extract meaningful features from both nodes and edges in a graph with NetworkX                  | <a href="https://colab.research.google.com/drive/1Y_r8IgVkGi75AD9JK4rBfEKw9IhJ5lie?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| Basic Training Loop from NumPy to PyTorch | Perform a general training with NumPy and PyTorch to understand the key principles of learning  | <a href="https://colab.research.google.com/drive/1Jd9SgPKgtWQ4rwfc3-b83LsQAcf2X2I3?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| Shallow embedding methods                 | Apply shallow embedding methods, such as Node2Vec, for graph classification using PyG           | <a href="https://colab.research.google.com/drive/1-LKv3m9N3tZKaR2l_1Mc1R-0b3gVg8Xw?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| GCN Layer                                 | Explore using pure NumPy the key principles of Graph Convolutional Networks (GCNs)              | <a href="https://colab.research.google.com/drive/1F9_agkpEIJUWSBI5JRYp_CvvbnpY4aU7?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| GAT Layer                                 | Understand the inner working of the GAT Layer in NumPy and compare it with the GCN layer        | <a href="https://colab.research.google.com/drive/1_hu4OJs6Q69vw3F0TKp3gda-DyyLoltZ?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| GraphGPS                                  | Test with PyG the effectiveness of Graph Transformer architectures for node property prediction | <a href="https://colab.research.google.com/drive/18A7YyfXMI5DdMiseuxE455NBsb6TnkOp?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| GraphSage Model                           | Train a GraphSage Model on the Reddit dataset with PyG and understand the differences with GCN  | <a href="https://colab.research.google.com/drive/1tEtcrx4aITmtyKSJgFE9a2kvTpPbx6TO?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| Graph Isomorphism                         | Identify using NumPy the key aspects related to the structural similarity between graphs        | <a href="https://colab.research.google.com/drive/1N9bYrJptwiT86DUOBZ0f5cXGGw6qlrd8?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| Permutation invariance and equivariance   | Test permutation equivariance and invariance in Graph Neural Networks with NumPy                | <a href="https://colab.research.google.com/drive/1hKCctLxhLke6hMK2_whlxXj0zwM5QkWI?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| Weisfeiler-Lehman Isomorphism Test        | Measure the expressiveness of GNNs with the Weisfeiler-Lehman algorithm implemented in NumpY    | <a href="https://colab.research.google.com/drive/1s-d9Ji3OmLldOQwsyIQlhgyHLJHHBkui?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| GCN vs GIN                                | Compare the expressive power of GCNs and GINs for graph classification using PyG                | <a href="https://colab.research.google.com/drive/1KAUg26RRPJtT5ZolJNF26CO2tEbgDOsg?usp=sharing "><img src="images/colab.svg" alt="Open In Colab"></a> |
+| Node classification                       | Apply node classification comparing MLP (multilayer perceptron) and GCN with PyG                | <a href="https://colab.research.google.com/drive/1msCAgSOHTap7JfVinDIHTbZ-xQFwOiUQ?usp=sharing "><img src="images/colab.svg" alt="Open In Colab"></a> |
+| Graph Classification                      | Predict the categories of graphs based on the structural graph properties leveraging PyG        | <a href="https://colab.research.google.com/drive/1snrrXop6mx6ImvBHGn6oy_cHsIMiJx3W?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| Scaling GNNs                              | Scale GNNs with PyG by adopting the Cluster-GCN algorithm                                       | <a href="https://colab.research.google.com/drive/16lQ2xPW-ZFERy4LHhDForbIAPqQxfova?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| GNNs explainablility                      | Explain GNNs results using PyG and Captum                                                       | <a href="https://colab.research.google.com/drive/19AOiJZcCblhgK2SDZHyIuPiDKzW8HW_d?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| Link Prediction                           | Forecast missing connections in graphs with PyG                                                 | <a href="https://colab.research.google.com/drive/1hmsobQvQ4TsMOJAfuQOQ-kFpH-SiSGGT?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| Link Regression                           | Predict continuous-valued edge attributes in graph-structured data with PyG                     | <a href="https://colab.research.google.com/drive/1oMW5JqV4sL_CY6eGHiawcaysCW58LWI9?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| R-GCN Layer                               | Extend the definition of GCN for processing heterogenous graph (aka Knowledge Graphs)           | <a href="https://colab.research.google.com/drive/1kvUX0wegmeJAxzFtZGQh4pNyERlPYSgU?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+| KG Embeddings                             | Implement basic KG embedding algorithm with NumPy and Pykeen                                    | <a href="https://colab.research.google.com/drive/1AQJx6xOVlxxqSUKknwDrkGgP-1_GRlAk?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a>  |
+
+## Contact
+
+* LinkedIn: https://www.linkedin.com/in/giuseppefutia/
+* Medium: https://medium.com/@giuseppefutia
+* X: https://twitter.com/giuseppe_futia
